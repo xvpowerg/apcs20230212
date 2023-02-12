@@ -1,0 +1,12 @@
+"""
+作者:Howard
+日期:2023/02/12
+功能：練習print函數
+"""
+print("Hello")
+print(123)
+print(1.41421)
+print(3.1415,2.71828)
+print(4,5,6,sep="-",end="\n\n")#輸出分隔為-的文字
+print("Python!!")
+print("Ken\nVivin")
