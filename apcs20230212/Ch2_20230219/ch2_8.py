@@ -1,0 +1,5 @@
+h = float(input("請輸入身高cm:"))
+w = int(input("請輸入體重kg:"))
+bmi = w /((h /100)**2)
+print("bmi:%.2f"%bmi)
+print(f"bmi是:{bmi:.2f}")
