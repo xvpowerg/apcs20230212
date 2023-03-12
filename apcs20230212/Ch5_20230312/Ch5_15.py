@@ -1,0 +1,15 @@
+num1 = 10
+num2  = 0
+nums = [1,3,5,7,9]
+try:
+    print("Try:")
+    #print(num1 * num3)
+    print(num1/num2)
+    #print(nums[100])
+except (NameError,IndexError):
+     print("產生例外:NameError 或 IndexError")
+except ZeroDivisionError:
+     print("產生例外:ZeroDivisionError")
+except:
+     print("產生例外")
+print("程式結束")     
